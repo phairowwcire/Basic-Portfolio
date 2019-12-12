@@ -37,7 +37,41 @@ body {
     font-weight: 700;
     color: #4aaaa5;
   }
+  #button{
+    background-color:#4aaaa5 ;
+    color: white;
+  }
+
   
+.caption{
+ 
+  width:250px;
+   
+  
+  text-align:center;
+   position: relative;
+   bottom:10px;
+
+   
+  
+}
+ 
+ .label{
+   position: absolute;
+   z-index: 1;
+   top:180px;
+   text-align: center;
+   color: white;
+   background-color:#4aaaa5;
+   width:250px;
+   
+ }
+.frame{
+   left:10px;
+  position:absolute;
+  border: 10px solid red;
+}
+
   h1 {
     padding-bottom: 20px;
     font-size: 30px;
